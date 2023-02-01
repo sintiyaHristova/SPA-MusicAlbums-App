@@ -12,6 +12,8 @@ The total profit will be the sum from all sold albums in the end of the day.
 - Make a new record with the updated information
 - To show total profit for sold albums for the day
 
+## Live Demo: https://rawcdn.githack.com/sintiyaHristova/Music-Albums/19ab425bc0e75e0e94cc01afded183c97148bbc1/index.html
+
 ## Screenshots:
 ![01](https://user-images.githubusercontent.com/104487003/216164381-9c1e3abc-ace7-4088-8088-4c06626e1789.jpg)
 ##
