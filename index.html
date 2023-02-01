@@ -1,0 +1,83 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Albums</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-wrapper">
+      <form>
+        <h1>Add album</h1>
+
+        <fieldset>
+          <legend><span class="number">1</span> Album details</legend>
+
+          <label for="author">Author:</label>
+          <input type="text" id="author" name="author" />
+
+          <label for="album">Album title:</label>
+          <input type="text" id="album" name="album" />
+
+          <label for="year">Album debut date:</label>
+          <input type="number" id="year" min="1990" max="2023" step="1" />
+
+
+          <legend><span class="number">2</span> Price</legend>
+          <input type="number" id="price" step="10" />
+
+          
+
+          <button id="publish" type="submit">Add</button>
+      </form>
+    </div>
+
+    <div class="table-wrapper">
+      <section>
+        <div class="tbl-header">
+          <table>
+            <thead>
+              <tr>
+                <th>Author</th>
+                <th>Album title</th>
+                <th>Year</th>
+                <th>Price</th>
+                
+                <th></th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="tbl-content">
+          <table>
+            <tbody id="tablE">
+
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="sold-wrapper">
+
+        <div id="title-bar">
+          SOLD ALBUMS:
+        </div>
+        <div id="nav">
+          <span>Album</span>
+          <span>Album debut date</span>
+          <span>Price</span>
+        </div>
+        <ul id="soldAlbums">
+
+        </ul>
+      </section>
+      <p>Profit made: <strong id="profit">0.00</strong>$</p>
+    </div>
+  </div>
+  <script src="./albumsList.js"></script>
+</body>
+
+</html>
