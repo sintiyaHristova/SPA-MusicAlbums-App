@@ -11,7 +11,7 @@ function musicAlbums() {
   let sum = 0;
 
   const submitButton = document
-    
+    .getElementById("publish")
     .addEventListener("click", (ev) => {
       ev.preventDefault();
       if (
